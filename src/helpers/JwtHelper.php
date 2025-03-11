@@ -8,7 +8,7 @@ class JwtHelper
     private static $secret_key = "NXT";
     private static $alg = "HS256";
 
-    public static function generateTokem($userId)
+    public static function generateToken($userId)
     {
         $payload = [
             "iat" => time(),
