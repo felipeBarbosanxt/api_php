@@ -1,0 +1,13 @@
+{
+    "name": "felip/api",
+    "description": "api php",
+    "authors": [
+        {
+            "name": "Felipe Barbosa",
+            "email": "felipebbarbosasantos@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.11"
+    }
+}
